@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(image/food+background+for+restaurant+menu-5.jpg);
+}
+.resturant-cards{
+    margin: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 110px;
+}
+
+.resturant-details{
+padding: 10px;
+}
+.group{
+    display:flex;
+    justify-content:space-between;
+    font-size: small;
+    margin: 5px 0;
+    color: gray;
+}
+.rating{
+    background-color:#25d366;
+    border-radius: 5px;
+    padding-right: 3.6px;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+.resturant-name{
+   font-weight: 600;
+   font-weight: bold;
+   font-size: medium;
+   color: black;
+}
+
+.resturant-image{
+    position: relative;
+}
+
+@media (max-width:780px){
+.resturant-card{
+    width: 90%;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 12px 0.7px gray;
+    background-color: white;
+}
+}
+
+.resturant-image img{
+    height: 160px;
+    width: 300px;
+    border-radius:10px 10px 0px 0px;
+}
+.resturant-image .discount{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    height: 19px;
+    width: 128px;
+    background-color: #e40312;
+    color: white;
+    border-radius: 5px;
+    bottom: 10px;
+    left: 5px;
+    padding: 5px;
+}
